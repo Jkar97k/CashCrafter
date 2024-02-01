@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashCrafter", "CashCrafter\CashCrafter.csproj", "{CE1B5952-B713-40C5-9F0B-677B8C904676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashCrafter.Api", "CashCrafter\CashCrafter.Api.csproj", "{CE1B5952-B713-40C5-9F0B-677B8C904676}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{21293188-EC9D-428A-8148-D67077412092}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{AF3942B6-3A39-44C4-8DC8-13A290D6BF12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{461DE309-1488-427D-B372-FE6835E387A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{4419C878-482A-481D-9A1F-B736F05D075F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE1B5952-B713-40C5-9F0B-677B8C904676} = {21293188-EC9D-428A-8148-D67077412092}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97B62575-B988-4567-BD8A-4ACBF8F7E366}
