@@ -23,13 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Configurations\" />
     <Folder Include="DTO\" />
-    <Folder Include="Model\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Service\" />
     <Folder Include="Repository\" />
+    <Folder Include="Service\" />
   </ItemGroup>
 
 </Project>
