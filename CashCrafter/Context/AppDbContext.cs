@@ -17,7 +17,7 @@ namespace CashCrafter.Api.Context
         public DbSet<Ingreso> Ingresos { get; set; }
         public DbSet<TipoAhorro> TipoAhorros { get; set; }
         public DbSet<TipoIngreso> TipoIngresos { get; set; }
-        public DbSet<TipoPago> tipoPagos { get; set; }
+        public DbSet<TipoPago> TiposPago { get; set; }
         public DbSet<Ubicacion> Ubicaciones { get; set; }
         public DbSet<User> Users { get; set; }
     }

@@ -17,10 +17,12 @@ builder.Services.AddDbContext<AppDbContext>(
 //Repositorios
 builder.Services.AddScoped<IUserRepository,UserRepository>();
 builder.Services.AddScoped<IUbicacionRepository,UbicacionRepository>();
+builder.Services.AddScoped<ITipoPagoRepository, TipoPagoRepository>();
 
 //Servicios
 builder.Services.AddScoped<IUserService,UserService>();
 builder.Services.AddScoped<IUbicacionService,UbicacionService>();
+builder.Services.AddScoped<ITipoPagoService, TipoPagoService>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers();
