@@ -23,6 +23,7 @@ namespace CashCrafter.Api.Configurations
             CreateMap<Ingreso,PostIngresosDTO>().ReverseMap();
             CreateMap<GastoR,GastoRDTO>().ReverseMap();
             CreateMap<GastoR,PostGastosRDTO>().ReverseMap();
+            CreateMap<GastoR, PutGastosRDTO>().ReverseMap();
         }
     }
 }
