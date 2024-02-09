@@ -21,6 +21,8 @@ namespace CashCrafter.Api.Configurations
             CreateMap<TipoAhorro, PostTipoAhorroDTO>().ReverseMap();
             CreateMap<Ingreso,IngresosDTO>().ReverseMap();  
             CreateMap<Ingreso,PostIngresosDTO>().ReverseMap();
+            CreateMap<GastoR,GastoRDTO>().ReverseMap();
+            CreateMap<GastoR,PostGastosRDTO>().ReverseMap();
         }
     }
 }
