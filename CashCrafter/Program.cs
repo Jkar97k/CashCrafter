@@ -19,12 +19,14 @@ builder.Services.AddScoped<IUserRepository,UserRepository>();
 builder.Services.AddScoped<IUbicacionRepository,UbicacionRepository>();
 builder.Services.AddScoped<ITipoPagoRepository, TipoPagoRepository>();
 builder.Services.AddScoped<ITipoIngresoRepository, TipoIngresoRepository>();
+builder.Services.AddScoped<ITipoAhorroRepository,TipoAhorroRepository>();
 
 //Servicios
 builder.Services.AddScoped<IUserService,UserService>();
 builder.Services.AddScoped<IUbicacionService,UbicacionService>();
 builder.Services.AddScoped<ITipoPagoService, TipoPagoService>();
 builder.Services.AddScoped<ITipoIngresoService, TipoIngresoService>();
+builder.Services.AddScoped<ITipoAhorroService, TipoAhorroService>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers();
