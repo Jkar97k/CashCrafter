@@ -9,19 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{21293188-EC9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{AF3942B6-3A39-44C4-8DC8-13A290D6BF12}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Busiines", "Busiines", "{461DE309-1488-427D-B372-FE6835E387A8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bussines", "Bussines", "{461DE309-1488-427D-B372-FE6835E387A8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{4419C878-482A-481D-9A1F-B736F05D075F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{E4A443D7-0AD6-4F26-BCD0-B7A9D48A70A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{E4A443D7-0AD6-4F26-BCD0-B7A9D48A70A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{7CCC884B-AEC2-473F-8535-DCF23328D6CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{7CCC884B-AEC2-473F-8535-DCF23328D6CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{5609E8E4-6657-449F-BD10-B369DF9B36AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{5609E8E4-6657-449F-BD10-B369DF9B36AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{1220F777-CFCC-44F3-97AE-872E66FA9AA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{1220F777-CFCC-44F3-97AE-872E66FA9AA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configurations", "Configurations\Configurations.csproj", "{8ECE3670-D92C-44EE-9437-A28C2D9CA055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configurations", "Configurations\Configurations.csproj", "{8ECE3670-D92C-44EE-9437-A28C2D9CA055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

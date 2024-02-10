@@ -4,7 +4,7 @@ using CashCrafter.Api.DTO;
 using CashCrafter.Api.Interfaces;
 using CashCrafter.Api.Model;
 using Microsoft.EntityFrameworkCore;
-namespace CashCrafter.Api.Repository
+namespace CashCrafter.Repository
 {
     public class TipoPagoRepository : ITipoPagoRepository
     {

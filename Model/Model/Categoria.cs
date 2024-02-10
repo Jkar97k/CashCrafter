@@ -1,4 +1,4 @@
-﻿namespace CashCrafter.Api.Model
+﻿namespace CashCrafter.Model
 {
     public class Categoria
     {

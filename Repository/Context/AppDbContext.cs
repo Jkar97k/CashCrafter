@@ -1,7 +1,7 @@
 ﻿using CashCrafter.Api.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace CashCrafter.Api.Context
+namespace CashCrafter.Repository
 {
     public class AppDbContext:DbContext
     {
