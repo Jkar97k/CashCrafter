@@ -1,6 +1,4 @@
 ﻿using CashCrafter.DTO;
-using CashCrafter.Service;
-using CashCrafter.Api.Repository;
 
 namespace CashCrafter.Service
 {
