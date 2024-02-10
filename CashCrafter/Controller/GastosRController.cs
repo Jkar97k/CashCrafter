@@ -1,6 +1,5 @@
-﻿using CashCrafter.Api.DTO;
-using CashCrafter.Api.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using CashCrafter.DTO;
+using CashCrafter.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashCrafter.Api.Controller

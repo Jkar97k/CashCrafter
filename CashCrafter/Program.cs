@@ -1,7 +1,6 @@
-using CashCrafter.Api.Context;
-using CashCrafter.Api.Interfaces;
-using CashCrafter.Api.Repository;
-using CashCrafter.Api.Service;
+
+using CashCrafter.Repository;
+using CashCrafter.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

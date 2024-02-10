@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using CashCrafter.Api.DTO;
-using CashCrafter.Api.Model;
+using CashCrafter.DTO;
+using CashCrafter.Model;
 
 namespace CashCrafter.Api.Configurations
 {
