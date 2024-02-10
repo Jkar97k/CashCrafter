@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
-using CashCrafter.Api.Context;
-using CashCrafter.Api.DTO;
-using CashCrafter.Api.Interfaces;
-using CashCrafter.Api.Model;
+using CashCrafter.DTO;
+using CashCrafter.Model;
+using CashCrafter.Service;
 using Microsoft.EntityFrameworkCore;
 
 namespace CashCrafter.Repository

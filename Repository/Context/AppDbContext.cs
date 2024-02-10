@@ -1,4 +1,5 @@
-﻿using CashCrafter.Api.Model;
+﻿
+using CashCrafter.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace CashCrafter.Repository
