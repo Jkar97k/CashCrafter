@@ -27,6 +27,16 @@ namespace CashCrafter.Api.Configurations
             CreateMap<Gasto,GastoDTO>().ReverseMap();
             CreateMap<Gasto, PostGastoDTO>().ReverseMap();
             CreateMap<Gasto, PutGastoDTO>().ReverseMap();
+            CreateMap<Clase,ClaseDTO>().ReverseMap();
+            CreateMap<Clase,PostClaseDTO>().ReverseMap();
+            CreateMap<Categoria,CategoriaDTO>().ReverseMap();
+            CreateMap<Categoria,PostCategoriaDTO>().ReverseMap();
+            CreateMap<Ahorro, AhorroDTO>().ReverseMap();
+            CreateMap<Ahorro, PostAhorroDTO>().ReverseMap();
+            CreateMap<Ahorro, PutAhorroDTO>().ReverseMap(); 
+            CreateMap<Abono,AbonoDTO>().ReverseMap();
+            CreateMap<Abono,PostAbonoDTO>().ReverseMap();
+            CreateMap<Abono,PutAbonoDTO>().ReverseMap();
 
         }
     }

@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using CashCrafter.DTO;
 using CashCrafter.Model;
-using CashCrafter.Repository;
+using CashCrafter.Service;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace CashCrafter.Service
+namespace CashCrafter.Repository
 {
     public class ClaseRepository : IClaseRepository
     {

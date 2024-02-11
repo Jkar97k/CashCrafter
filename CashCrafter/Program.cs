@@ -23,6 +23,7 @@ builder.Services.AddScoped<IIngresoRepository, IngresoRepository>();
 builder.Services.AddScoped<IGastosrRepository, GastosrRepository>();
 builder.Services.AddScoped<IGastoRepository, GastoRepository>();
 builder.Services.AddScoped<IClaseRepository, ClaseRepository>();
+builder.Services.AddScoped<ICategoriaRepository,CategoriaRepository>();
 
 //Servicios
 builder.Services.AddScoped<IUserService,UserService>();
@@ -34,6 +35,7 @@ builder.Services.AddScoped<IIngresoService, IngresoService>();
 builder.Services.AddScoped<IGastosRService, GastosRService>();
 builder.Services.AddScoped<IGastoService, GastoService>();
 builder.Services.AddScoped<IClaseService, ClaseService>();
+builder.Services.AddScoped<ICategoriaService,CategoriaService>();
 
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
