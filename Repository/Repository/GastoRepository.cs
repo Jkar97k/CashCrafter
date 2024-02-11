@@ -38,7 +38,7 @@ namespace CashCrafter.Repository
         }
         public async Task<int> Create(PostGastoDTO dto)
         {
-            var data = _mapper.Map<GastoR>(dto);
+            var data = _mapper.Map<Gasto>(dto);
             _context.Add(data);
             return await _context.SaveChangesAsync();
         }

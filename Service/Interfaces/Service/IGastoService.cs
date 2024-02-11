@@ -2,12 +2,12 @@
 
 namespace CashCrafter.Service
 {
-    internal interface IGastosService:IMensaje
+    public interface IGastoService:IMensaje
     {
         Task<int> Create(PostGastoDTO dto);
         Task<int> Delete(int id);
         Task<List<GastoDTO>> Get();
         Task<GastoDTO> GetById(int id);
-        Task<int> Update(int id, PutGastosRDTO dto);
+        Task<int> Update(int id, PutGastoDTO dto);
     }
 }

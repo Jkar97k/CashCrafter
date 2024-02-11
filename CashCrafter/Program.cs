@@ -21,6 +21,8 @@ builder.Services.AddScoped<ITipoIngresoRepository, TipoIngresoRepository>();
 builder.Services.AddScoped<ITipoAhorroRepository,TipoAhorroRepository>();
 builder.Services.AddScoped<IIngresoRepository, IngresoRepository>();
 builder.Services.AddScoped<IGastosrRepository, GastosrRepository>();
+builder.Services.AddScoped<IGastoRepository, GastoRepository>();
+builder.Services.AddScoped<IClaseRepository, ClaseRepository>();
 
 //Servicios
 builder.Services.AddScoped<IUserService,UserService>();
@@ -30,6 +32,9 @@ builder.Services.AddScoped<ITipoIngresoService, TipoIngresoService>();
 builder.Services.AddScoped<ITipoAhorroService, TipoAhorroService>();
 builder.Services.AddScoped<IIngresoService, IngresoService>();
 builder.Services.AddScoped<IGastosRService, GastosRService>();
+builder.Services.AddScoped<IGastoService, GastoService>();
+builder.Services.AddScoped<IClaseService, ClaseService>();
+
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers();
