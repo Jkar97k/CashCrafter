@@ -14,6 +14,7 @@ namespace CashCrafter.Repository
         public DbSet<Ahorro> Ahorros { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Clase> Clases { get; set; }
+        public DbSet<Gasto> Gastos { get; set; }
         public DbSet<GastoR> GastosR { get; set; }
         public DbSet<Ingreso> Ingresos { get; set; }
         public DbSet<TipoAhorro> TiposAhorro { get; set; }

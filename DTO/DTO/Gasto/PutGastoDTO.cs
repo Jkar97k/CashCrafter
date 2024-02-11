@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace CashCrafter.DTO
 {
-    internal class PutGastoDTO
+    public class PutGastoDTO
     {
         public int UserId { get; set; }
         //public int Mes { get; set; }
